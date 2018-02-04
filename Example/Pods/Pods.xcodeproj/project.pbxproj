@@ -11,9 +11,10 @@
 		5EDF0FE7302ED8AE96F18E9818966A3F /* Pods-OOListBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E57B65A0B34EE76C5F55D95238E2AD /* Pods-OOListBox_Tests-dummy.m */; };
 		66FEEA044501FD54EF4C024020AE6F40 /* Pods-OOListBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF7D362F0ED28FD66C5F4AD97B97ED4 /* Pods-OOListBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67770AF11AFCBCD09EC880659A1E1C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		880BEE0726C6DD78A2157F5EF0BEAD8C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E226EBCEDDB3BDFE28A9F1F3E79384 /* ReplaceMe.m */; };
-		A073AC8D2026F617001B8A3F /* OOListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A073AC8B2026F617001B8A3F /* OOListBox.m */; };
-		A073AC8E2026F617001B8A3F /* OOListBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A073AC8C2026F617001B8A3F /* OOListBox.h */; };
+		A052E8BA2027411A001B4A63 /* OOListBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A052E8B82027411A001B4A63 /* OOListBox.h */; };
+		A052E8BB2027411A001B4A63 /* OOListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A052E8B92027411A001B4A63 /* OOListBox.m */; };
+		A052E8BE2027414D001B4A63 /* ATest.h in Headers */ = {isa = PBXBuildFile; fileRef = A052E8BC2027414D001B4A63 /* ATest.h */; };
+		A052E8BF2027414D001B4A63 /* ATest.m in Sources */ = {isa = PBXBuildFile; fileRef = A052E8BD2027414D001B4A63 /* ATest.m */; };
 		C718195BAD9B3D75BBAE279976B83D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E7D6AA90561726C42E78C6467D7908C1 /* OOListBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D9B87D78F6C49BEADA3DF492B71309 /* OOListBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -41,9 +42,10 @@
 		665CC259D0822EA4B00D52A6EB591692 /* Pods-OOListBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OOListBox_Tests.modulemap"; sourceTree = "<group>"; };
 		77D3CBC19FF26B16B4E8C621752B024B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A073AC8B2026F617001B8A3F /* OOListBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOListBox.m; sourceTree = "<group>"; };
-		A073AC8C2026F617001B8A3F /* OOListBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOListBox.h; sourceTree = "<group>"; };
-		A3E226EBCEDDB3BDFE28A9F1F3E79384 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OOListBox/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A052E8B82027411A001B4A63 /* OOListBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OOListBox.h; path = OOListBox/Classes/OOListBox.h; sourceTree = "<group>"; };
+		A052E8B92027411A001B4A63 /* OOListBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OOListBox.m; path = OOListBox/Classes/OOListBox.m; sourceTree = "<group>"; };
+		A052E8BC2027414D001B4A63 /* ATest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATest.h; sourceTree = "<group>"; };
+		A052E8BD2027414D001B4A63 /* ATest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATest.m; sourceTree = "<group>"; };
 		A3EC452C0B902AA5FAD1AEC77E076A7E /* OOListBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OOListBox-dummy.m"; sourceTree = "<group>"; };
 		A7D62B83974191B7E972DC1975059FD3 /* OOListBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OOListBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D9B87D78F6C49BEADA3DF492B71309 /* OOListBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OOListBox-umbrella.h"; sourceTree = "<group>"; };
@@ -107,9 +109,10 @@
 		7BCDD932F7DF9154F5A28C72012176E8 /* OOListBox */ = {
 			isa = PBXGroup;
 			children = (
-				A073AC8C2026F617001B8A3F /* OOListBox.h */,
-				A073AC8B2026F617001B8A3F /* OOListBox.m */,
-				A3E226EBCEDDB3BDFE28A9F1F3E79384 /* ReplaceMe.m */,
+				A052E8BC2027414D001B4A63 /* ATest.h */,
+				A052E8BD2027414D001B4A63 /* ATest.m */,
+				A052E8B82027411A001B4A63 /* OOListBox.h */,
+				A052E8B92027411A001B4A63 /* OOListBox.m */,
 				4121C93E441448B265EE090984D03E23 /* Pod */,
 				9B9541C0BEAEE172051EF544EC85B073 /* Support Files */,
 			);
@@ -199,7 +202,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A073AC8E2026F617001B8A3F /* OOListBox.h in Headers */,
+				A052E8BE2027414D001B4A63 /* ATest.h in Headers */,
+				A052E8BA2027411A001B4A63 /* OOListBox.h in Headers */,
 				E7D6AA90561726C42E78C6467D7908C1 /* OOListBox-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A052E8BF2027414D001B4A63 /* ATest.m in Sources */,
 				5960352ED6E13B598F3412A8404660AC /* OOListBox-dummy.m in Sources */,
-				A073AC8D2026F617001B8A3F /* OOListBox.m in Sources */,
-				880BEE0726C6DD78A2157F5EF0BEAD8C /* ReplaceMe.m in Sources */,
+				A052E8BB2027411A001B4A63 /* OOListBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
