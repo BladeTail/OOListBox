@@ -24,6 +24,22 @@ pod 'OOListBox'
 
 www.oldone@qq.com, zqylwrq@yonyou.com
 
+ListBox controller written in Objective-C.This is just a test for using of git commands.
+
+Drag the OOListBox.h and OOListBox.m files to your project.
+You can use it just like any other widget such as UIView.
+
+Using example:
+```objectivec
+OOListBox * listBox = [OOListBox alloc] initWithFrame:CGRectMake(0, 0, 150, 36);
+listBox.defaultSelectedString = @"Make a choise";
+NSArray *array = @[@"itemOne",@"itemFirst",@"itemTird"];
+listBox.selectStrings = [[NSMutableArray alloc] initWithArray:array];
+[self.view addSubView:listBox]
+```
+This might wouldn't be updated any more.
+
 ## License
 
 OOListBox is available under the MIT license. See the LICENSE file for more info.
+
