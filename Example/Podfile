@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OOListBox_Tests' do
+  pod 'OOListBox', :path => '../'
+  
+  
+end
