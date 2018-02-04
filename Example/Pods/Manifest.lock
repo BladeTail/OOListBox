@@ -1,0 +1,16 @@
+PODS:
+  - OOListBox (0.1.0)
+
+DEPENDENCIES:
+  - OOListBox (from `../`)
+
+EXTERNAL SOURCES:
+  OOListBox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OOListBox: a19694b14c54b19e4ec53ec8f827789035e7a91f
+
+PODFILE CHECKSUM: 15517b9b304bea7ff8d729755a03758f25cd36a0
+
+COCOAPODS: 1.4.0

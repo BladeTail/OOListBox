@@ -1,0 +1,22 @@
+{
+  "name": "OOListBox",
+  "version": "0.1.0",
+  "summary": "A short description of OOListBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/www.oldone@qq.com/OOListBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "www.oldone@qq.com": "zqylwrq@yonyou.com"
+  },
+  "source": {
+    "git": "https://github.com/www.oldone@qq.com/OOListBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OOListBox/Classes/**/*"
+}

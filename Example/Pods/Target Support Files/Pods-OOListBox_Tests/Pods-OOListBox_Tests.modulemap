@@ -1,0 +1,6 @@
+framework module Pods_OOListBox_Tests {
+  umbrella header "Pods-OOListBox_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

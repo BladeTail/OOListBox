@@ -1,0 +1,6 @@
+framework module OOListBox {
+  umbrella header "OOListBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
