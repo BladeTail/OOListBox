@@ -11,6 +11,7 @@
 #endif
 
 #import "ATest.h"
+#import "NNTestFile.h"
 #import "OOListBox.h"
 
 FOUNDATION_EXPORT double OOListBoxVersionNumber;
