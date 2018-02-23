@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OOListBox/Classes/**/*"
+  "source_files": "OOListBox/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "OOListBox": [
+      "OOListBox/Assets/*.{png,xcassets}",
+      "OOListBox/Classes/**/*.{xib}"
+    ]
+  }
 }

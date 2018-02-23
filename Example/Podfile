@@ -1,6 +1,4 @@
 use_frameworks!
 target 'OOListBox_Tests' do
-    pod 'OOListBox', :path => '../',:branch=> 'master'
-  
-  
+	pod 'OOListBox', :path => '../', :branch => 'master'
 end
