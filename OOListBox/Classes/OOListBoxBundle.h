@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface OOListBoxBundle : NSObject
-
++(NSBundle *)frameworkBundle;
 @end

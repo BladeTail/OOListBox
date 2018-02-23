@@ -6,16 +6,24 @@
 //
 
 #import "OOVC.h"
+#import "OOListBoxBundle.h"
 
 @interface OOVC ()
-
+@property (nonatomic,weak) IBOutlet UIImageView *imageView;
 @end
 
 @implementation OOVC
 
++(OOVC *)loadFromNib{
+    OOVC *instance = [[OOVC alloc] initWithNibName:NSStringFromClass([OOVC class]) bundle:[OOListBoxBundle frameworkBundle]];
+    return instance;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIImage *image = [UIImage imageNamed:@"avatar_placeholder" inBundle:[OOListBoxBundle frameworkBundle] compatibleWithTraitCollection:nil];
+    self.imageView.image = image;
 }
 
 - (void)didReceiveMemoryWarning {
