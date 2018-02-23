@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "ATest.h"
+#import "OOListBox.h"
+#import "OOListBoxBundle.h"
+#import "OOVC.h"
 
 FOUNDATION_EXPORT double OOListBoxVersionNumber;
 FOUNDATION_EXPORT const unsigned char OOListBoxVersionString[];

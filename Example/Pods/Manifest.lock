@@ -1,16 +1,17 @@
 PODS:
-  - OOListBox (0.1.0)
+  - OOListBox (1.0.0a)
 
 DEPENDENCIES:
   - OOListBox (from `../`)
 
 EXTERNAL SOURCES:
   OOListBox:
+    :branch: b0001
     :path: ../
 
 SPEC CHECKSUMS:
-  OOListBox: a19694b14c54b19e4ec53ec8f827789035e7a91f
+  OOListBox: 512f1dcce7acf7c98c865888200377ab61e01b17
 
-PODFILE CHECKSUM: 15517b9b304bea7ff8d729755a03758f25cd36a0
+PODFILE CHECKSUM: 4ce17ab5e03dbd7a68edc5b49c3772ee80b60fb5
 
 COCOAPODS: 1.4.0
